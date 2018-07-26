@@ -1,0 +1,53 @@
+body {
+  /* background-image: url("../img/black-grass.jpg"); */
+  background-color: black;
+}
+.parallax-divider {
+  height: 6vh !important;
+}
+.static-logo img {
+  width: 65%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 2px 2px 15px black;
+}
+
+.parallax-pic {
+  height: 88vh !important;
+}
+
+@media (min-width: 950px) {
+  .static-logo img {
+    width: 38%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px 25px black;
+  }
+  .parallax-divider {
+    height: 5vh !important;
+  }
+  .parallax-pic {
+    height: 90vh !important;
+  }
+}
+
+@media (min-width: 1800px) {
+  .static-logo img {
+    width: 35%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px 25px black;
+  }
+  .parallax-divider {
+    height: 5vh !important;
+  }
+  .parallax-pic {
+    height: 90vh !important;
+  }
+}
